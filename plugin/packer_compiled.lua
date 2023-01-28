@@ -74,6 +74,16 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/home/vaibhav/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  ["moonlight.nvim"] = {
+    loaded = true,
+    path = "/home/vaibhav/.local/share/nvim/site/pack/packer/start/moonlight.nvim",
+    url = "https://github.com/shaunsingh/moonlight.nvim"
+  },
   ["nightfox.nvim"] = {
     loaded = true,
     path = "/home/vaibhav/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
