@@ -1,6 +1,8 @@
 require('plugins')
 require('treesitter-config')
 require('basic')
+require('lualine-config')
 
-vim.cmd('colorscheme carbonfox')
-
+-- themes
+--vim.cmd('colorscheme carbonfox')
+require('moonlight').set()
