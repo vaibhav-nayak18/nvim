@@ -5,5 +5,5 @@ require('basic')
 -- themes
 --vim.cmd('colorscheme carbonfox')
 require('moonlight').set()
-
+-- lualine 
 require('lualine-config')
