@@ -7,3 +7,6 @@ require('basic')
 require('moonlight').set()
 -- lualine 
 require('lualine-config')
+require('bufferline-config')
+require('filetree-config')
+require('telescope-config')
